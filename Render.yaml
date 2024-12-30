@@ -1,0 +1,43 @@
+services:
+  - type: web
+    name: queen-anya-md
+    plan: free
+    region: frankfurt
+    runtime: docker
+    branch: master
+    repo: https://github.com/PikaBotz/Anya_v2-MD.git
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: BotName
+        value: ""
+      - key: Footer
+        value: "© Queen Anya Bot"
+      - key: Prefix
+        value: "/"
+      - key: ThemeEmoji
+        value: "🎐"
+      - key: Owner_Name
+        value: "Pika~Kun"
+      - key: Owner_Number
+        value: "80619385576"
+      - key: Insta
+        value: "3.69_pika"
+      - key: Author
+        value: "PikaBotz"
+      - key: PackName
+        value: "Queen Anya • Stickers"
+      - key: Web
+        value: "https://github.com/PikaBotz"
+      - key: GcLink
+        value: "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX"
+      - key: Warn_Limits
+        value: "3"
+      - key: Cooldown_Timer_Seconds
+        value: "5"
+      - key: Port
+        value: "8080"
+      - key: MongoDB
+        value: "mongodb+srv://Dev:liquid4@cluster0.moflf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      - key: SESSION_ID
+        value: "dSP_A_N_Y_A_V_2_dlPmioZEf5voRONUk"
