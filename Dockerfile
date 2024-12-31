@@ -26,6 +26,6 @@ ENV Warn_Limits="3"
 ENV Cooldown_Timer_Seconds="5"
 ENV Port="8080"
 ENV MongoDB="mongodb+srv://Dev:liquid4@cluster0.moflf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-ENV SESSION_ID="URcHpueApuNU_A_N_Y_A_V_2_K9Y4fK0C"
+ENV SESSION_ID="3s05JrXah_A_N_Y_A_V_2_c33QdnnnXgj"
 
 CMD ["npm", "start"]
